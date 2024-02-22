@@ -1,3 +1,11 @@
 theme: afnizarnur/draco
 title: Ale's homepage
 description: My personal and professional card of presentation
+
+# Build settings
+markdown: kramdown
+
+collections:
+  blog:
+    output: true
+    permalink: /blog/:path/
